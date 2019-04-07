@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Jb</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" media="screen">
+		<script type="text/javascript" src="js/default.js"></script>
+		<script type="text/javascript" src="js/profile.js"></script>
+	</head>
+	<body onload="ValidaForma()">
+		<div class="CajaGeneral">
+			<div id="CajaChat">
+				<form name="FormaChat" action="php/bd.php" onsubmit="return FormatoEntrada();" method="post">
+					<fieldset>
+						<legend>Jb</legend>
+						<textarea 
+							id="TxtSalidaChat"
+							name="TxtSalidaChat">
+						</textarea>
+						<br>
+						<input 
+							type="text"
+							id="TxtEntradaChat"
+							name="TxtEntradaChat"
+							placeholder="Escribe algo..">
+						<input 
+							type="submit"
+							value="Enviar">
+					</fieldset>
+				</form>
+			</div>
+			<div id="CajaInfo">
+				<input type="button" onclick="LimpiaTextArea();" value ="Limpia Formulario">
+			</div>
+		</div>
+	</body>
+</html>

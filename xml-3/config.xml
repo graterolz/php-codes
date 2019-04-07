@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configuration>
+	<oven>
+		<mode>bake</mode>
+		<temperature>37</temperature>
+		<duration>35</duration>
+		<direction>bottom-up</direction>
+		<autooff>yes</autooff>
+	</oven>
+</configuration>

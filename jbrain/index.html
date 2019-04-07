@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Jb</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" media="screen">
+		<script type="text/javascript" src="js/default.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body onload="ValidaForma()">
+		<div class="CajaGeneral">
+			<div id="CajaLogin">
+				<form name="FormaLogin" onsubmit="return ValidaLogin();" action="profile.html" method="post">
+					<fieldset>
+						<legend>Login</legend>
+						<table>
+						<tr>
+							<td>
+								<input 
+									type="text"
+									id="TxtUsuario"
+									name="TxtUsuario"
+									placeholder="Usuario">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input 
+									type="password"
+									id="TxtContrasena"
+									name="TxtContrasena"
+									placeholder="Contrasena">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input 
+									type="submit"
+									id="BtnEntrar"
+									name="BtnEntrar"
+									value="Entrar">
+							</td>
+						</tr>
+						</table>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

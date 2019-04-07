@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<objects>
+	<object color="red" shape="square">
+		<length units="cm">5</length>
+	</object>
+	<object color="red" shape="circle">
+		<radius units="px">7</radius>
+	</object>
+	<object color="green" shape="triangle">
+		<base units="in">1</base>
+		<height units="in">2</height>
+	</object>
+	<object color="blue" shape="triangle">
+		<base units="mm">100</base>
+		<height units="mm">50</height>
+	</object>
+	<object color="yellow" shape="circle">
+		<radius units="cm">18</radius>
+	</object>
+</objects>

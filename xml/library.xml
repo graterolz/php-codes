@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<library>
+	<book id="1" genre="horror" rating="5">
+		<title>The Shining</title>
+		<author>Stephen King</author>
+		<pages>673</pages>
+	</book>
+	<book id="2" genre="suspense" rating="4">
+		<title>Shutter Island</title>
+		<author>Dennis Lehane</author>
+		<pages>390</pages>
+	</book>
+	<book id="3" genre="fantasy" rating="5">
+		<title>The Lord Of The Rings</title>
+		<author>J. R. R. Tolkien</author>
+		<pages>3489</pages>
+	</book>
+	<book id="4" genre="suspense" rating="3">
+		<title>Double Cross</title>
+		<author>James Patterson</author>
+		<pages>308</pages>
+	</book>
+	<book id="5" genre="horror" rating="4">
+		<title>Ghost Story</title>
+		<author>Peter Straub</author>
+		<pages>389</pages>
+	</book>
+	<book id="6" genre="fantasy" rating="3">
+		<title>Glory Road</title>
+		<author>Robert Heinlein</author>
+		<pages>489</pages>
+	</book>
+	<book id="7" genre="horror" rating="3">
+		<title>The Exorcist</title>
+		<author>William Blatty</author>
+		<pages>301</pages>
+	</book>
+	<book id="8" genre="suspense" rating="2">
+		<title>The Camel Club</title>
+		<author>David Baldacci</author>
+		<pages>403</pages>
+	</book>
+</library>
