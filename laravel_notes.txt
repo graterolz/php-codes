@@ -1,0 +1,9 @@
+Install Laravel -> composer create-project laravel/laravel <FOLDER_NAME>
+View Version -> php artisan --version
+Create Controller -> php artisan make:controller <NameController>
+Create Modelo -> php artisan make:model <NameModel> -m
+Create Migration -> php artisan make:migration <NombreArchivo> create_archivos_table
+Run Migrations -> php artisan migrate
+Rollback Migrations -> php artisan migrate:rollback
+Reset Migrations -> php artisan migrate:reset
+Restablecer Migrations -> php artisan migrate:refresh
